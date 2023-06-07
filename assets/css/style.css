@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+:root {
+    --blue: #001b51;
+    --blue2: #062d74;
+    --blue3: #0054af;
+    --blue4: #7cc2ff;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lora' sans-serif;
+    color: var(--white);
+}
+
+/*-----------------------------*/
+/*Formt geral*/
+.text-center {
+    text-align: center;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+/*-----------------------------*/
+
+.container-cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--blue2);
+}
+
+.container-cabecalho h3 {
+    font-weight: 600;
+    font-size: 2em;
+    color: var(--blue4);
+}
+
+/*-----------------------------*/
+.container-navegaçao {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--blue3);
+}
+
+.container-navegaçao a {
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: var(--blue4);
+}
+/*-----------------------------*/
+
+.container-navegaçao a:hover{
+    color: var(--white);
+    transition: 0.3s;
+}
+
+
+.container-quem-somos {
+    background-color: var(--blue);
+    overflow: auto;
+}
+/*
+.container-quem-somos .servicos {
+    float: center;
+    margin: 60px auto;
+    background-color:;
+    width: 50%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
