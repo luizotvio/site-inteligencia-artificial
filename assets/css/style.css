@@ -129,6 +129,19 @@ span {
 }
 
 /*-----------------------------*/
+.container-servicos {
+    background-color: var(--blue);
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto;
+}
+
+.container-servicos h1 {
+    font-size: 3em;
+    color: var(--white);
+}
+
+/*-----------------------------*/
 
 footer {
     text-align: center;
