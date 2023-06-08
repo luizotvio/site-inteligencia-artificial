@@ -139,6 +139,24 @@ span {
 .container-servicos h1 {
     font-size: 3em;
     color: var(--white);
+    margin-bottom: 20px;
+}
+
+.container-servicos h3 {
+    color: var(--blue4);
+    padding: 20px 0;
+}
+
+.container-servicos article {
+    width: 40%;
+    margin: auto;
+    float: center;
+}
+
+.container-servicos li {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: var(--white);
 }
 
 /*-----------------------------*/
